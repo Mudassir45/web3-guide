@@ -32,7 +32,6 @@ Broadcast the Transaction
   web3.eth.sendSignedTransaction(raw, (err, txHash) => {
     console.log('err: ', err, 'txHash:', txHash)
   })
-
 })
 
 // After Deployment comment above section and run these cmds to call ftns of deployed contract:
